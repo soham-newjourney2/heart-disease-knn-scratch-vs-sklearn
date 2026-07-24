@@ -22,12 +22,12 @@ This repository demonstrates:
 ### 1. Target Class & Age Distribution
 Analysis of the target condition (`0 = Healthy/No Disease`, `1 = Heart Disease`) and age distribution across patient cohorts.
 
-![Plots/Target and Age Distribution](eda_target_age_distribution.png)
+![Target and Age Distribution](Plots/eda_target_age_distribution.png)
 
 ### 2. Maximum Heart Rate (`thalach`) vs. Age
 Investigating the relationship between peak heart rate achieved during stress testing and patient age, categorized by heart disease status.
 
-![Plots/Max Heart Rate vs Age](eda_thalach_vs_age.png)
+![Max Heart Rate vs Age](Plots/eda_thalach_vs_age.png)
 
 ---
 
@@ -56,7 +56,7 @@ Models were evaluated on a held-out test split ($20\%$). Hyperparameter search s
 
 ### Confusion Matrix Comparison
 
-![Plots/Confusion Matrices](model_confusion_matrices.png)
+![Confusion Matrices](Plots/model_confusion_matrices.png)
 
 ---
 
@@ -80,8 +80,8 @@ Models were evaluated on a held-out test split ($20\%$). Hyperparameter search s
 ### To run the project locally:
 
 ```bash
-git clone [https://github.com/soham-newjourney2/linear-regression-scratch-vs-sklearn.git](https://github.com/soham-newjourney2/linear-regression-scratch-vs-sklearn.git)
-cd linear-regression-scratch-vs-sklearn
+git clone [https://github.com/soham-newjourney2/heart-disease-knn-scratch-vs-sklearn.git](https://github.com/soham-newjourney2/heart-disease-knn-scratch-vs-sklearn.git)
+cd heart-disease-knn-scratch-vs-sklearn
 pip install numpy pandas matplotlib seaborn scikit-learn
 jupyter notebook
 ```
